@@ -23,6 +23,15 @@
     background-color: var(--prim-very-dark-cyan);
 }
 
+.sr-only {
+    position: absolute ;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    top: auto;
+    overflow: hidden;
+  }
+
 main{
     display: grid;
     place-items: center;
@@ -99,6 +108,7 @@ article.car-type button {
         color: var(--neut-transp-white);
         border: solid 2px;
         transition: all 0.2s;
+        cursor: pointer;
     }
 }
 
